@@ -2,7 +2,7 @@
  {
    "repository":  "Dabug123/owlCore64",
    "target_path": "kernel/huawei/angler",
-   "branch":      "saberTest-p-uber"
+   "branch":      "saberTest-p-linaro"
  },
  {
    "repository":  "AOSIP-Devices/platform_vendor_huawei",
