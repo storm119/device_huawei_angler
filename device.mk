@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/synaptics_dsx.idc:system/usr/idc/synaptics_dsx.idc
 
 # for launcher layout
-#PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
 #    AnglerLayout
 
 # include fingerprintd
@@ -153,6 +153,10 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.qseecomd.sh:system/bin/init.angler.qseecomd.sh
 
 PRODUCT_TAGS += dalvik.gc.type-precise
+
+# AOSP vendor links
+PRODUCT_PACKAGES += \
+    AOSPLinks
 
 # This device is 560dpi.  However the platform doesn't
 # currently contain all of the bitmaps at 560dpi density so
@@ -429,11 +433,11 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/old-apns-conf.xml:system/etc/old-apns-conf.xml
 
 # Modem debugger
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-ifeq (,$(filter aosp_angler, $(TARGET_PRODUCT)))
-PRODUCT_PACKAGES += \
-    QXDMLogger
-endif # aosp_angler
+# ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+# ifeq (,$(filter aosp_angler, $(TARGET_PRODUCT)))
+# PRODUCT_PACKAGES += \
+#     QXDMLogger
+# endif # aosp_angler
 
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.angler.diag.rc.userdebug:root/init.angler.diag.rc
