@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "Dabug123/KronicKernel",
+   "target_path": "kernel/huawei/angler",
+   "branch":      "n"
+ },
+ {
+   "repository":  "PureNexusProject/platform_vendor_huawei",
+   "target_path": "vendor/huawei",
+   "branch":      "n"
+ }
+]
