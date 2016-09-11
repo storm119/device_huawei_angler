@@ -5,7 +5,7 @@
    "branch":      "n"
  },
  {
-   "repository":  "PureNexusProject/platform_vendor_huawei",
+   "repository":  "PureNexusProject/proprietary_vendor_huawei",
    "target_path": "vendor/huawei",
    "branch":      "n"
  }
