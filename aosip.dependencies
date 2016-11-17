@@ -5,7 +5,7 @@
    "remote": "github"
  },
  {
-   "repository":  "proprietary_vendor_huawei",
+   "repository":  "platform_vendor_huawei",
    "target_path": "vendor/huawei"
  }
 ]
