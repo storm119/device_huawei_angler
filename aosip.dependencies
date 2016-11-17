@@ -2,11 +2,10 @@
  {
    "repository":  "Dabug123/KronicKernel",
    "target_path": "kernel/huawei/angler",
-   "branch":      "n"
+   "remote": "github"
  },
  {
-   "repository":  "PureAndroidProject/proprietary_vendor_huawei",
-   "target_path": "vendor/huawei",
-   "branch":      "n"
+   "repository":  "proprietary_vendor_huawei",
+   "target_path": "vendor/huawei"
  }
 ]
