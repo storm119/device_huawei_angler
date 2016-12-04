@@ -31,7 +31,7 @@ PRODUCT_MODEL := AOSP on angler
 PRODUCT_MANUFACTURER := Huawei
 
 $(call inherit-product, device/huawei/angler/device.mk)
-$(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/angler/angler-vendor.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3
