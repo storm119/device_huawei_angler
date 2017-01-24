@@ -10,5 +10,11 @@
    "repository":  "SlimRoms/kernel_huawei_angler",
    "target_path": "kernel/huawei/angler",
    "branch":      "ng7.1"
+ },
+ {
+   "remote":      "aosp",
+   "repository":  "device/google/contexthub",
+   "target_path": "device/google/contexthub",
+   "branch":      "refs/tags/android-7.1.1_r1"
  }
 ]
