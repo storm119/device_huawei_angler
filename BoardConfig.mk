@@ -162,7 +162,7 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
 USE_CLANG_PLATFORM_BUILD := true
 
 # CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
+OARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
     hardware/cyanogen/cmhw \
     device/huawei/angler/cmhw
